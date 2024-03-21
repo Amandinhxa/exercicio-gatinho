@@ -1,49 +1,53 @@
 @import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap");
+/* @import para importar algo externo */
 
+/* * para selecionar todos os elementos */ 
 * {
   font-family: Roboto;
   margin: 0;
 }
 
 img {
-  height: 100vh;
-  max-width: 50%;
+  height: 100vh;              /* vh: para utilizar toda pagina*/
+  max-width: 50%;            /* max-width: define a largura maxima de um elemento */
 }
 
 #oi {
-  display: flex;
-  flex-direction: row;
-  gap: 30px;
-  align-items: center;
+  display: flex;             /* display: flex: nao entendi foi nada */
+  flex-direction: row;       /* flex-direction: os elementos fica em linha */
+  gap: 30px;                 /* row: em linha da esquerda pra direita*/
+  align-items: center;       /* gap: define os espaços entre as linhas e as colunas*/
 }
 
 .texto {
   display: flex;
-  flex-direction: column;
+  flex-direction: column;     /* column: em coluna decima para baixo*/
   flex: 1 1 50%;
-  gap: 6px;
-  margin-bottom: 111px;
+  gap: 6px;                  
+  margin-bottom: 111px;       /* margin-bottom: margem inferior de um elemento */
 }
 
 #wrapper {
   display: flex;
-  flex-direction: column;
-  gap: 60px;
+  flex-direction: column;      
+  gap: 50px;
   max-width: 35%;
 }
 
 #wrapper-box {
   display: flex;
   flex-direction: row;
-  flex-wrap: wrap;
+  flex-wrap: wrap;           /* flex-wrap: wrap: quebra de linha e os q estao na direita vai ser 
+                             jogado para baixo*/
+                             
 }
 
 .texto h2 {
-  color: #091133;
-  font-size: 30px;
-  font-weight: 500;
-  line-height: 48px;
-  text-align: left;
+  color: #091133;          
+  font-size: 30px;             /* font-size: tamanho da fonte */
+  font-weight: 500;            /* font-weight: define o peso (ou negrito) da fonte */
+  line-height: 48px;           /* line-height: define a distancia entre as linhas de texto*/
+  text-align: left;            
 }
 
 .texto p.primario {
